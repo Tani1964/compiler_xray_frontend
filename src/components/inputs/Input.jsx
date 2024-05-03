@@ -1,5 +1,4 @@
 import axios from "axios"
-import { text } from "d3";
 import { useState, useContext } from "react";
 import { DataContext } from "../contexts/DataContext";
 
@@ -25,7 +24,7 @@ const Input = () => {
 
   return (
     <div className="w-[100%] h-[10%]">
-        <form onSubmit={handleSubmit} action="http://127.0.0.1:5000" method="POST" className="w-1/2 flex gap-2">
+        <form onSubmit={handleSubmit} action="http://127.0.0.1:5000" method="POST" className="lg:w-1/2 flex gap-2">
         <input 
   name="text" 
   className="w-1/2 py-2 px-2 border-2 border-green-400" 

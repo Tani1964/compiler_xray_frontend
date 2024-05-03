@@ -73,7 +73,7 @@ const Tree = () => {
   }, [treeData]); // Re-run when 'treeData' changes
 
   // Return the SVG with the ref for D3 manipulations
-  return <svg ref={svgRef} width={600} height={400} />;
+  return <svg  ref={svgRef} width={600} height={400} />;
 };
 
 export default Tree;
